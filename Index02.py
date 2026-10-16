@@ -1,9 +1,13 @@
 def main(s):
-    """
-    The string variable s is given. return the second character.
-    Args:
-        s(str): parameter
-    Returns:
-        str: answer
-    """
-    return
+    return s[1]
+    
+s = "python"
+print(main(s))
+
+#Next code for index02
+
+def main(s):
+    return s[1]
+    
+s = "code"
+print(main(s))
